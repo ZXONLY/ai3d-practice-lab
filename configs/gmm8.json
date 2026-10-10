@@ -1,0 +1,1 @@
+{"dataset":"gmm8","seed":42,"steps":2000,"batch_size":256,"learning_rate":0.001,"hidden_dim":128,"hidden_layers":3,"train_size":8192,"val_size":2048,"eval_every":100,"noise":0.08,"threads":1}

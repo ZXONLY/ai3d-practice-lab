@@ -1,0 +1,1 @@
+{"dataset":"moons","seed":42,"steps":8,"batch_size":32,"learning_rate":0.001,"hidden_dim":32,"hidden_layers":2,"train_size":128,"val_size":64,"eval_every":4,"noise":0.08,"threads":1}

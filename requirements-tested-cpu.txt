@@ -1,0 +1,7 @@
+# Top-level packages actually used for the CPU verification run.
+# Not a full transitive lock; install PyTorch from its official CPU index first.
+# python -m pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
+# python -m pip install -r requirements-tested-cpu.txt
+# python -m pip install -e . --no-deps
+numpy==2.3.5
+matplotlib==3.10.8
