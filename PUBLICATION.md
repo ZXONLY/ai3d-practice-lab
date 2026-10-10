@@ -9,7 +9,7 @@ Git bundle SHA-256：`3efff6eb0076313459f490c56bc763887892c6a759032fc6384daaea0b
 恢复原始历史：
 
 ```bash
-git clone ai3d-practice-lab.bundle ai3d-practice-lab-original
+git clone -b main ai3d-practice-lab.bundle ai3d-practice-lab-original
 git -C ai3d-practice-lab-original log --oneline
 git -C ai3d-practice-lab-original rev-parse HEAD
 ```

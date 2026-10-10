@@ -14,7 +14,7 @@ cd ai3d-practice-lab
 在 bundle 所在目录执行：
 
 ```bash
-git clone ai3d-practice-lab.bundle ai3d-practice-lab
+git clone -b main ai3d-practice-lab.bundle ai3d-practice-lab
 cd ai3d-practice-lab
 git log --oneline
 git status --short
